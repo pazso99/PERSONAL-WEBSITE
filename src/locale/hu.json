@@ -1,0 +1,234 @@
+{
+    "translation": {
+        "head": {
+            "title": "Pap Zsolt | Full-stack webfejlesztő",
+            "description": "Pap Zsolt Full-stack webfejlesztő bemutatkozó oldal",
+            "keywords": "full-stack, webfejlesztő, bemutatkozó oldal, portfólió, szeged, php, laravel, vue, nuxt, sass, react, react native, angular",
+            "author": "Zsolt Pap"
+        },
+        "navbar": {
+            "about": "Rólam",
+            "skills": "Ismeretek",
+            "experience": "Tapasztalat",
+            "projects": "Projektek"
+        },
+        "about": {
+            "welcome": "Üdv!",
+            "name_1": "Pap Zsolt ",
+            "name_2": "vagyok",
+            "job_1": "Egy ",
+            "job_2": "Full-stack webfejlesztő",
+            "desc": "Szeretek új dolgokat tanulni, új kihívások elé nézni, minél többet fejlődni. Szorgalmas, motivált és kitartó vagyok, készen állok nagyszerű dolgokat megalkotni."
+        },
+        "cv": {
+            "title": "Önéletrajz",
+            "downloadName": "CV_Pap_Zsolt"
+        },
+        "skills": {
+            "title": "Ismeretek",
+            "data": [
+                {
+                    "title": "Frontend",
+                    "skills": [
+                        {
+                            "key": "html",
+                            "name": "HTML",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "css",
+                            "name": "CSS",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "sass",
+                            "name": "Sass",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "javascript",
+                            "name": "JavaScript",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "vue",
+                            "name": "Vue",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "nuxt",
+                            "name": "Nuxt",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "reactNative",
+                            "name": "React Native",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "react",
+                            "name": "React",
+                            "level": "#077107"
+                        },
+                        {
+                            "key": "typescript",
+                            "name": "TypeScript",
+                            "level": "#077107"
+                        },
+                        {
+                            "key": "angular",
+                            "name": "Angular",
+                            "level": "#077107"
+                        }
+                    ]
+                },
+                {
+                    "title": "Backend",
+                    "skills": [
+                        {
+                            "key": "php",
+                            "name": "PHP",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "laravel",
+                            "name": "Laravel",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "postgresql",
+                            "name": "PostgreSQL",
+                            "level": "#27d100"
+                        },
+                        {
+                            "key": "nodejs",
+                            "name": "Node.js",
+                            "level": "#077107"
+                        },
+                        {
+                            "key": "kotlin",
+                            "name": "Kotlin",
+                            "level": "#c7c41e"
+                        },
+                        {
+                            "key": "spring",
+                            "name": "Spring boot",
+                            "level": "#c7c41e"
+                        }
+                    ]
+                },
+                {
+                    "title": "Eszközök, további technológiák",
+                    "skills": [
+                        {
+                            "key": "vscode",
+                            "name": "VS Code"
+                        },
+                        {
+                            "key": "linux",
+                            "name": "Linux"
+                        },
+                        {
+                            "key": "git",
+                            "name": "Git"
+                        },
+                        {
+                            "key": "gitlab",
+                            "name": "Gitlab"
+                        },
+                        {
+                            "key": "jira",
+                            "name": "Jira"
+                        },
+                        {
+                            "key": "docker",
+                            "name": "Docker"
+                        },
+                        {
+                            "key": "nginx",
+                            "name": "Nginx"
+                        }
+                    ]
+                }
+            ]
+        },
+        "experience": {
+            "jobs": {
+                "title": "Munkatapasztalat",
+                "data": [
+                    {
+                        "role": "Full-stack webfejlesztő",
+                        "company": "FIT Solutions Kft.",
+                        "date": "2021 jan. - 2023 szept.",
+                        "features": [
+                            "REST API",
+                            "Mobil app",
+                            "Backoffice",
+                            "SPA / SSR",
+                            "Admin panel CRUD",
+                            "SQL lekérdezési riport",
+                            "Autentikáció",
+                            "Adatvizualizáció",
+                            "Interaktív térkép",
+                            "Geoserver/Tileserver/Maplibre",
+                            "Cronjob",
+                            "Three.js & GSAP",
+                            "Fizetés integráció",
+                            "SEO"
+                        ],
+                        "desc": "Részvétel webalkalmazások fejlesztésében, az API készítéstől kezdve egészen a felhasználói felületig. Backoffice/Admin panel rendszerek, mobilalkalmazás fejlesztése. Inkább FE felé való hajlás Vue, Nuxt, Angular és React Native technológiát használva. A BE oldalon Laravel és egy kis Kotlin."
+                    },
+                    {
+                        "role": "Gyakornok",
+                        "company": "FIT Solutions Kft.",
+                        "date": "2020 aug. - 2021 jan.",
+                        "desc": "Bevezető projekt készítése az alapvető fejlesztői környezet megismeréséhez, majd éles projektekben való kisebb funkciók fejlesztése."
+                    }
+                ]
+            },
+            "educations": {
+                "title": "Tanulmányok",
+                "data": [
+                    {
+                        "school": "SZTE-JGYPK",
+                        "degree": "Programtervező informatikus (fejlesztő) FOSZK",
+                        "date": "2018 szept. - 2021 febr.",
+                        "desc": "Programozás alapjaiba való bevezetés Java, JavaScript, PHP nyelven, továbbá OOP, adatbázisok megismerése."
+                    }
+                ]
+            }
+        },
+        "projects": {
+            "title": "Projektek",
+            "data": [
+                {
+                    "id": "spending",
+                    "title": "Spending",
+                    "description": "Egy kiadás nyomonkövető, ahol a bevételeket és kiadásokat lehet felvenni különböző egyenlegekre kategóriák megadásával. Dashboardon, adott időszakra kimutatások és diagramok találhatóak",
+                    "tags": [
+                        "Nuxt",
+                        "Nuxt UI",
+                        "TailwindCSS",
+                        "TypeScript",
+                        "Laravel",
+                        "Laravel Sanctum"
+                    ],
+                    "githubLinks": [
+                        { "label": "API", "link": "https://github.com/pazso99/PAPLAN-API" },
+                        { "label": "WEB", "link": "https://github.com/pazso99/PAPLAN-WEB" }
+                    ],
+                    "webLinks": []
+                }
+            ]
+        },
+        "footer": {
+            "name": "Pap Zsolt",
+            "nav": {
+                "about": "Rólam",
+                "skills": "Ismeretek",
+                "experience": "Tapasztalat",
+                "projects": "Projektek"
+            }
+        }
+    }
+}
