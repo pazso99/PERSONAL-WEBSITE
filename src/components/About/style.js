@@ -114,28 +114,6 @@ export const Description = styled.div`
     }
 `;
 
-export const CVButton = styled.a`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    background: ${({ theme }) => theme.CVButtonBackground};
-    color: ${({ theme }) => theme.CVButtonText};
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 8px;
-    cursor: pointer;
-    text-decoration: none;
-    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
-    transition: all 0.2s ease-in-out;
-
-    &:hover {
-        background: ${({ theme }) => theme.CVButtonBackground + 95};
-        color: ${({ theme }) => theme.CVButtonText + 50};
-    }
-`;
-
 export const Picture = styled.div`
     order: 2;
     width: 100%;

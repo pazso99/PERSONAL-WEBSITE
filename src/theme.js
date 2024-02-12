@@ -9,8 +9,6 @@ export const darkTheme = {
     backgroundLight: "#032a77",
     navbarText: "#ffffff",
     navbarBackground: "#13131c",
-    CVButtonText: "#fff",
-    CVButtonBackground: "#528cff",
     footerText: "#ffffff",
     footerBackground: "#13131c",
 };
@@ -26,8 +24,6 @@ export const lightTheme = {
     backgroundLight: "#032a77",
     navbarText: "#ffffff",
     navbarBackground: "#032a77",
-    CVButtonText: "#fff",
-    CVButtonBackground: "#528cff",
     footerText: "#ffffff",
     footerBackground: "#032a77",
 };

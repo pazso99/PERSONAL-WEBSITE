@@ -1,13 +1,10 @@
 import { useState } from "react";
 import { FaBars, FaWindowClose } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import CVIcon from "@mui/icons-material/AssignmentInd";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
-import CV_en from "../../media/me/CV_Zsolt_Pap_en.pdf";
-import CV_hu from "../../media/me/CV_Pap_Zsolt_hu.pdf";
 import {
     NavbarContainer,
     Nav,
@@ -35,11 +32,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         changeLanguage(newLanguage);
     };
 
-    const CV_info = {
-        src: currentLanguage === "en" ? CV_en : CV_hu,
-        title: t("cv.downloadName"),
-    };
-
     return (
         <NavbarContainer>
             <Nav>
@@ -59,9 +51,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                     <NavItem href="#projects">{t("navbar.projects")}</NavItem>
                 </NavItems>
                 <IconButtonContainer>
-                    <IconButton href={CV_info.src} download={CV_info.title} target="_blank">
-                        <CVIcon />
-                    </IconButton>
                     <IconButton href="https://linkedin.com/in/pazso99" target="_blank">
                         <LinkedInIcon />
                     </IconButton>
@@ -89,9 +78,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                         <MobileNavItem href="#projects" onClick={() => { setIsOpen(!isOpen) }}>{t("navbar.projects")}</MobileNavItem>
                         <HorizontalLine />
                         <MobileIconButtonContainer>
-                            <IconButton href={CV_info.src} download={CV_info.title} target="_blank">
-                                <CVIcon />
-                            </IconButton>
                             <IconButton href="https://linkedin.com/in/pazso99" target="_blank">
                                 <LinkedInIcon />
                             </IconButton>

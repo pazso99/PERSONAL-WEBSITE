@@ -1,9 +1,6 @@
 import { useTranslation } from "react-i18next";
-import CVIcon from "@mui/icons-material/AssignmentInd";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
-import CV_en from "../../media/me/CV_Zsolt_Pap_en.pdf";
-import CV_hu from "../../media/me/CV_Pap_Zsolt_hu.pdf";
 import {
     Container,
     Wrapper,
@@ -19,11 +16,7 @@ import {
 } from "./style";
 
 const Footer = () => {
-    const { t, i18n: { language } } = useTranslation();
-    const CV_info = {
-        src: language === "en" ? CV_en : CV_hu,
-        title: t("cv.downloadName")
-    };
+    const { t } = useTranslation();
     const email = process.env.REACT_APP_EMAIL;
     const mobile = process.env.REACT_APP_MOBILE;
 
@@ -41,7 +34,6 @@ const Footer = () => {
                     <NavLink href="#projects">{t("footer.nav.projects")}</NavLink>
                 </Nav>
                 <IconButtonContainer>
-                    <IconButton href={CV_info.src} download={CV_info.title} target="_blank"><CVIcon /></IconButton>
                     <IconButton href="https://linkedin.com/in/pazso99" target="_blank"><LinkedInIcon /></IconButton>
                     <IconButton href="https://github.com/pazso99" target="_blank"><GithubIcon /></IconButton>
                 </IconButtonContainer>
