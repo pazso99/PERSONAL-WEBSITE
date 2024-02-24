@@ -92,7 +92,7 @@
                             "level": "#27d100"
                         },
                         {
-                            "key": "postgresql",
+                            "key": "postgres",
                             "name": "PostgreSQL",
                             "level": "#27d100"
                         },
@@ -100,6 +100,11 @@
                             "key": "nodejs",
                             "name": "Node.js",
                             "level": "#077107"
+                        },
+                        {
+                            "key": "java",
+                            "name": "Java",
+                            "level": "#c7c41e"
                         },
                         {
                             "key": "kotlin",
@@ -131,6 +136,10 @@
                         {
                             "key": "gitlab",
                             "name": "Gitlab"
+                        },
+                        {
+                            "key": "github",
+                            "name": "Github"
                         },
                         {
                             "key": "jira",

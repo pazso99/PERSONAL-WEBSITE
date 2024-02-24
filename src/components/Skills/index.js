@@ -12,13 +12,15 @@ import angularIcon from "../../media/logos/frontend/angular.svg";
 import typescriptIcon from "../../media/logos/frontend/typescript.svg";
 import phpIcon from "../../media/logos/backend/php.png";
 import laravelIcon from "../../media/logos/backend/laravel.svg";
-import postgresqlIcon from "../../media/logos/backend/postgresql.svg";
+import postgresIcon from "../../media/logos/backend/postgres.svg";
 import nodejsIcon from "../../media/logos/backend/nodejs.svg";
 import kotlinIcon from "../../media/logos/backend/kotlin.svg";
+import javaIcon from "../../media/logos/backend/java.svg";
 import springIcon from "../../media/logos/backend/spring.svg";
 import vscodeIcon from "../../media/logos/others/vscode.svg";
 import gitIcon from "../../media/logos/others/git.svg";
 import gitlabIcon from "../../media/logos/others/gitlab.svg";
+import githubIcon from "../../media/logos/others/github.svg";
 import jiraIcon from "../../media/logos/others/jira.svg";
 import linuxIcon from "../../media/logos/others/linux.svg";
 import dockerIcon from "../../media/logos/others/docker.svg";
@@ -48,6 +50,7 @@ const Skills = () => {
         "git": gitIcon,
         "javascript": javascriptIcon,
         "kotlin": kotlinIcon,
+        "java": javaIcon,
         "spring": springIcon,
         "laravel": laravelIcon,
         "seo": seoIcon,
@@ -55,7 +58,7 @@ const Skills = () => {
         "nginx": nginxIcon,
         "nodejs": nodejsIcon,
         "nuxt": nuxtIcon,
-        "postgresql": postgresqlIcon,
+        "postgres": postgresIcon,
         "reactNative": reactNativeIcon,
         "react": reactIcon,
         "tailwind": tailwindIcon,
@@ -63,6 +66,7 @@ const Skills = () => {
         "vscode": vscodeIcon,
         "vue": vueIcon,
         "gitlab": gitlabIcon,
+        "github": githubIcon,
         "jira": jiraIcon
     };
 
