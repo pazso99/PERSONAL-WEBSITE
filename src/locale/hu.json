@@ -171,7 +171,7 @@
                             "Backoffice",
                             "SPA / SSR",
                             "Admin panel CRUD",
-                            "SQL lekérdezési riport",
+                            "SQL lekérdezésések",
                             "Autentikáció",
                             "Adatvizualizáció",
                             "Interaktív térkép",
@@ -207,12 +207,13 @@
             "title": "Projektek",
             "data": [
                 {
-                    "id": "spending",
-                    "title": "Spending",
-                    "description": "Egy kiadás nyomonkövető, ahol a bevételeket és kiadásokat lehet felvenni különböző egyenlegekre kategóriák megadásával. Dashboardon, adott időszakra kimutatások és diagramok találhatóak",
+                    "id": "paplan",
+                    "title": "Paplan",
+                    "description": "Paplan egy webalkalmazás, amely személyes pénzügyek és háztartás menedzselésére szolgáló CMS-ként működik kimutatásokkal, diagramokkal. Továbbá receptek és jegyzetek funkciókkal.",
                     "tags": [
+                        "Vue",
                         "Nuxt",
-                        "Nuxt UI",
+                        "PrimeVue",
                         "TailwindCSS",
                         "TypeScript",
                         "Laravel",

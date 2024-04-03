@@ -171,7 +171,7 @@
                             "Backoffice",
                             "SPA / SSR",
                             "Admin panel CRUD",
-                            "SQL query report",
+                            "SQL queries",
                             "Authentication",
                             "Data Visualization",
                             "Interactive map",
@@ -207,12 +207,13 @@
             "title": "Projects",
             "data": [
                 {
-                    "id": "spending",
-                    "title": "Spending",
-                    "description": "A spending tracker, where you can save incomes and expenses for different accounts with transaction category. On the dashboard there are reports and charts for a given period.",
+                    "id": "paplan",
+                    "title": "Paplan",
+                    "description": "Paplan is a web application that serves as a CMS for personal finance and household management with reports and diagrams. Also with features like recipes and notes.",
                     "tags": [
+                        "Vue",
                         "Nuxt",
-                        "Nuxt UI",
+                        "PrimeVue",
                         "TailwindCSS",
                         "TypeScript",
                         "Laravel",

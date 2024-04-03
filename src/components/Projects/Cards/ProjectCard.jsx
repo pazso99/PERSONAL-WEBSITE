@@ -14,15 +14,21 @@ import {
     Links,
     Link
 } from "../style";
-import spending1 from "../../../media/projects/spending/spending1.png";
-import spending2 from "../../../media/projects/spending/spending2.png";
-import spending3 from "../../../media/projects/spending/spending3.png";
+import paplan1 from "../../../media/projects/paplan/paplan1.png";
+import paplan2 from "../../../media/projects/paplan/paplan2.png";
+import paplan3 from "../../../media/projects/paplan/paplan3.png";
+import paplan4 from "../../../media/projects/paplan/paplan4.png";
+import paplan5 from "../../../media/projects/paplan/paplan5.png";
+import paplan6 from "../../../media/projects/paplan/paplan6.png";
 
 const projectImages = {
-    "spending": [
-        { src: spending1 },
-        { src: spending2 },
-        { src: spending3 },
+    "paplan": [
+        { src: paplan1 },
+        { src: paplan2 },
+        { src: paplan3 },
+        { src: paplan4 },
+        { src: paplan5 },
+        { src: paplan6 },
     ],
 };
 
