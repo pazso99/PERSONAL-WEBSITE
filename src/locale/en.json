@@ -181,13 +181,13 @@
                             "Payment Integration",
                             "SEO"
                         ],
-                        "desc": "Participation in the development of web applications, from the creation of the API to the UI. Backoffice/Admin panel mobile application development. Leaned toward to FE, with Vue, Nuxt, Angular and React Native. On the API side, Laravel and a little Kotlin."
+                        "desc": "Participation in the development of web applications, from the creation of the API to the UI. Backoffice/Admin panel and mobile application development. Leaned toward to FE, with Vue, Nuxt, Angular and React Native. On the API side, Laravel and a little Kotlin."
                     },
                     {
                         "role": "Intern",
                         "company": "FIT Solutions Kft.",
                         "date": "Aug 2020 - Jan 2021",
-                        "desc": "Making an introduction project to learn the basic development stack, then begin to work in live projects small features."
+                        "desc": "Making an introduction project to learn the basic development stack, then begin to work in live projects."
                     }
                 ]
             },
@@ -209,7 +209,7 @@
                 {
                     "id": "paplan",
                     "title": "Paplan",
-                    "description": "Paplan is a web application that serves as a CMS for personal finance and household management with reports and diagrams. Also with features like recipes and notes.",
+                    "description": "A web application that is for personal finance management with reports and diagrams, also serves as a household item storage system. Comes with features like recipes and notes.",
                     "tags": [
                         "Vue",
                         "Nuxt",

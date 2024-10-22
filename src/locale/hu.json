@@ -181,13 +181,13 @@
                             "Fizetés integráció",
                             "SEO"
                         ],
-                        "desc": "Részvétel webalkalmazások fejlesztésében, az API készítéstől kezdve egészen a felhasználói felületig. Backoffice/Admin panel rendszerek, mobilalkalmazás fejlesztése. Inkább FE felé való hajlás Vue, Nuxt, Angular és React Native technológiát használva. A BE oldalon Laravel és egy kis Kotlin."
+                        "desc": "Részvétel webalkalmazások fejlesztésében, az API készítéstől kezdve a felhasználói felületig. Backoffice/Admin panel rendszerek, mobilalkalmazás fejlesztése. Inkább FE felé való hajlás Vue, Nuxt, Angular és React Native technológiát használva. A BE oldalon Laravel és egy kis Kotlin."
                     },
                     {
                         "role": "Gyakornok",
                         "company": "FIT Solutions Kft.",
                         "date": "2020 aug. - 2021 jan.",
-                        "desc": "Bevezető projekt készítése az alapvető fejlesztői környezet megismeréséhez, majd éles projektekben való kisebb funkciók fejlesztése."
+                        "desc": "Bevezető projekt készítése az alapvető fejlesztői környezet megismeréséhez, majd éles projektekben való részvétel."
                     }
                 ]
             },
@@ -209,7 +209,7 @@
                 {
                     "id": "paplan",
                     "title": "Paplan",
-                    "description": "Paplan egy webalkalmazás, amely személyes pénzügyek és háztartás menedzselésére szolgáló CMS-ként működik kimutatásokkal, diagramokkal. Továbbá receptek és jegyzetek funkciókkal.",
+                    "description": "Egy webalkalmazás, amely a személyes pénzügyek menedzselésére szolgál, kimutatásokkal, diagramokkal, illetve háztartásbeli termékek nyomonkövetését segíti. Továbbá rendelkezik receptek és jegyzetek funkciókkal.",
                     "tags": [
                         "Vue",
                         "Nuxt",
